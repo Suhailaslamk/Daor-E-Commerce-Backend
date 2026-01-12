@@ -1,0 +1,17 @@
+# Visual Studio
+.vs/
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.cache
+*.log
+
+# Debug files
+*.dll
+*.exe
+*.pdb

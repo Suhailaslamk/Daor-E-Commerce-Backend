@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "Daor_E_Commerce.Controllers.AuthController",
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/auth/login",
     "HttpMethod": "POST",
@@ -9,14 +9,50 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Daor_E_Commerce.DTOs.LoginDto",
+        "Type": "Daor_E_Commerce.Application.DTOs.Auth.LoginDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Daor_E_Commerce.Controllers.AuthController",
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.AuthController",
+    "Method": "MyProfile",
+    "RelativePath": "api/auth/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/auth/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Daor_E_Commerce.Application.DTOs.Auth.RefreshTokenDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.AuthController",
     "Method": "Register",
     "RelativePath": "api/auth/register",
     "HttpMethod": "POST",
@@ -25,14 +61,72 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Daor_E_Commerce.DTOs.RegisterDto",
+        "Type": "Daor_E_Commerce.Application.DTOs.Auth.RegisterDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Daor_E_Commerce.Controllers.CartController",
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.AuthController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/auth/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ResetPasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.AuthController",
+    "Method": "SendOtp",
+    "RelativePath": "api/auth/send-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.AuthController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/auth/update-profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "UpdateProfileDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.AuthController",
+    "Method": "VerifyOtp",
+    "RelativePath": "api/auth/verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "VerifyOtpDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.CartController",
     "Method": "GetCart",
     "RelativePath": "api/cart",
     "HttpMethod": "GET",
@@ -42,8 +136,8 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Daor_E_Commerce.Controllers.CartController",
-    "Method": "AddToCart",
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.CartController",
+    "Method": "Add",
     "RelativePath": "api/cart/add",
     "HttpMethod": "POST",
     "IsController": true,
@@ -51,16 +145,58 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Daor_E_Commerce.DTOs.AddToCartDto",
+        "Type": "Daor_E_Commerce.Application.DTOs.Cart.AddToCartDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Daor_E_Commerce.Controllers.OrderController",
-    "Method": "Checkout",
-    "RelativePath": "api/orders/checkout",
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.CartController",
+    "Method": "Clear",
+    "RelativePath": "api/cart/clear",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.CartController",
+    "Method": "Remove",
+    "RelativePath": "api/cart/remove/{productId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.CartController",
+    "Method": "Update",
+    "RelativePath": "api/cart/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Daor_E_Commerce.Application.DTOs.Cart.UpdateCartItemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.OrderController",
+    "Method": "Create",
+    "RelativePath": "api/orders",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -68,9 +204,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Daor_E_Commerce.Controllers.OrderController",
-    "Method": "GetMyOrders",
-    "RelativePath": "api/orders/my-history",
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.OrderController",
+    "Method": "MyOrders",
+    "RelativePath": "api/orders",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -78,25 +214,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Daor_E_Commerce.Controllers.ProductController",
-    "Method": "GetProducts",
-    "RelativePath": "api/products",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "categoryId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Daor_E_Commerce.Controllers.ProductController",
-    "Method": "GetProduct",
-    "RelativePath": "api/products/{id}",
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.OrderController",
+    "Method": "GetById",
+    "RelativePath": "api/orders/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -110,9 +230,107 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Daor_E_Commerce.Controllers.ProductController",
-    "Method": "GetCategories",
-    "RelativePath": "api/products/categories",
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.OrderController",
+    "Method": "Cancel",
+    "RelativePath": "api/orders/cancel/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.OrderController",
+    "Method": "VerifyPayment",
+    "RelativePath": "api/orders/verify-payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Daor_E_Commerce.Application.DTOs.Orders.VerifyPaymentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.ProductsController",
+    "Method": "FilterSort",
+    "RelativePath": "api/products/filter-sort",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "InStock",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.ProductsController",
+    "Method": "GetAll",
+    "RelativePath": "api/products/getall",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -120,24 +338,197 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Daor_E_Commerce.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.ProductsController",
+    "Method": "GetById",
+    "RelativePath": "api/products/getby/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.ProductsController",
+    "Method": "GetByCategory",
+    "RelativePath": "api/products/getcatby/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.ProductsController",
+    "Method": "Paged",
+    "RelativePath": "api/products/paged",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.ProductsController",
+    "Method": "Search",
+    "RelativePath": "api/products/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.ShippingAddressController",
+    "Method": "Delete",
+    "RelativePath": "api/shipping-address/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.ShippingAddressController",
+    "Method": "Add",
+    "RelativePath": "api/shipping-address/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Daor_E_Commerce.Application.DTOs.Shipping.AddShippingAddressDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.ShippingAddressController",
+    "Method": "My",
+    "RelativePath": "api/shipping-address/my",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.ShippingAddressController",
+    "Method": "SetActive",
+    "RelativePath": "api/shipping-address/set-active/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Daor_E_Commerce.WeatherForecast, Daor-E-Commerce, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.ShippingAddressController",
+    "Method": "Update",
+    "RelativePath": "api/shipping-address/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Daor_E_Commerce.Application.DTOs.Shipping.UpdateShippingAddressDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.WishlistController",
+    "Method": "GetMyWishlist",
+    "RelativePath": "api/wishlist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.WishlistController",
+    "Method": "ClearWishlist",
+    "RelativePath": "api/wishlist/clear",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Daor_E_Commerce.Presentation.Controllers.WishlistController",
+    "Method": "Toggle",
+    "RelativePath": "api/wishlist/toggle/{productId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

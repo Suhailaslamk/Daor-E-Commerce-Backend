@@ -140,3 +140,4 @@ C:\Users\ACER\OneDrive\Desktop\dotNet core\Daor-E-Commerce\Daor-E-Commerce\obj\D
 C:\Users\ACER\OneDrive\Desktop\dotNet core\Daor-E-Commerce\Daor-E-Commerce\obj\Debug\net8.0\ref\Daor-E-Commerce.dll
 C:\Users\ACER\OneDrive\Desktop\dotNet core\Daor-E-Commerce\Daor-E-Commerce\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\ACER\OneDrive\Desktop\dotNet core\Daor-E-Commerce\Daor-E-Commerce\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ACER\OneDrive\Desktop\dotNet core\Daor-E-Commerce\Daor-E-Commerce\obj\Debug\net8.0\Daor-E-Commerce.sourcelink.json

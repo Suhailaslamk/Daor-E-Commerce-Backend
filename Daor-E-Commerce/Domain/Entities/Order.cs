@@ -1,0 +1,21 @@
+﻿using Daor_E_Commerce.Domain.Enums;
+
+namespace Daor_E_Commerce.Domain.Entities
+{
+    public class Order
+    {
+        public int Id { get; set; }
+        public int UserId { get; set; }
+        public User User { get; set; }
+        public decimal TotalAmount { get; set; }
+
+        public OrderStatus Status { get; set; } = OrderStatus.Pending;
+
+        public DateTime OrderDate { get; set; } = DateTime.UtcNow;
+        public string? PaymentIntentId { get; set; }
+        public ICollection<OrderItem> OrderItems { get; set; }
+    }
+}
+
+
+

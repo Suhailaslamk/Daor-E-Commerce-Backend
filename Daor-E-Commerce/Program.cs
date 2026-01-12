@@ -99,37 +99,35 @@
 
 
 
-using Daor_E_Commerce.Data;
-using Daor_E_Commerce.Interfaces;
-using Daor_E_Commerce.Services;
+using Daor_E_Commerce.Application.Interfaces;
+using Daor_E_Commerce.Application.Services;
+using Daor_E_Commerce.Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 1. Add Database
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// 2. REGISTER YOUR SERVICES (The Glue)
-// This tells the Controller to use the AuthService
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IWishlistService, WishlistService>();
+builder.Services.AddScoped<IShippingAddressService, ShippingAddressService>();
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
-        // This stops the infinite loop by ignoring repeating objects
         options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
     });
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
-    // 1. Define the "Bearer" security scheme
     options.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -140,7 +138,6 @@ builder.Services.AddSwaggerGen(options =>
         Description = "Enter your JWT token: Bearer {your_token}"
     });
 
-    // 2. Make Swagger use that scheme for authorized endpoints
     options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
     {
         {
@@ -157,7 +154,6 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-// 3. Add Authentication Logic
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -167,16 +163,35 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateAudience = true,
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
-            // MUST MATCH appsettings.json EXACTLY
             ValidIssuer = builder.Configuration["Jwt:Issuer"],
             ValidAudience = builder.Configuration["Jwt:Audience"],
             IssuerSigningKey = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])
             ),
-            // This prevents timing issues where the token is "not yet valid"
             ClockSkew = TimeSpan.Zero
         };
     });
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.InvalidModelStateResponseFactory = context =>
+    {
+        var errors = context.ModelState
+            .Where(x => x.Value.Errors.Count > 0)
+            .Select(x => new
+            {
+                Field = x.Key,
+                Errors = x.Value.Errors.Select(e => e.ErrorMessage)
+            });
+
+        return new BadRequestObjectResult(
+            new Daor_E_Commerce.Common.ApiResponse<object>(
+                400,
+                "Validation Failed",
+                errors
+            )
+        );
+    };
+});
 
 var app = builder.Build();
 
@@ -187,7 +202,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseAuthentication(); // Must be before Authorization
+app.UseAuthentication(); 
 app.UseAuthorization();
+app.UseMiddleware<ExceptionMiddleware>();
 app.MapControllers();
 app.Run();
