@@ -67,20 +67,8 @@
         }
       }
     },
-    "/api/auth/me": {
-      "get": {
-        "tags": [
-          "Auth"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/auth/update-profile": {
-      "put": {
+    "/api/auth/send-otp": {
+      "post": {
         "tags": [
           "Auth"
         ],
@@ -88,33 +76,21 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateProfileDto"
+                "$ref": "#/components/schemas/ForgotPasswordDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateProfileDto"
+                "$ref": "#/components/schemas/ForgotPasswordDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateProfileDto"
+                "$ref": "#/components/schemas/ForgotPasswordDto"
               }
             }
           }
         },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/auth/send-otp": {
-      "post": {
-        "tags": [
-          "Auth"
-        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -157,6 +133,15 @@
       "post": {
         "tags": [
           "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "email",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -215,8 +200,8 @@
         }
       }
     },
-    "/api/auth/logout": {
-      "post": {
+    "/api/auth/me": {
+      "get": {
         "tags": [
           "Auth"
         ],
@@ -227,10 +212,10 @@
         }
       }
     },
-    "/api/cart": {
-      "get": {
+    "/api/auth/logout": {
+      "post": {
         "tags": [
-          "Cart"
+          "Auth"
         ],
         "responses": {
           "200": {
@@ -324,8 +309,8 @@
         }
       }
     },
-    "/api/cart/clear": {
-      "delete": {
+    "/api/cart": {
+      "get": {
         "tags": [
           "Cart"
         ],
@@ -339,17 +324,19 @@
     "/api/orders": {
       "post": {
         "tags": [
-          "Order"
+          "Orders"
         ],
         "responses": {
           "200": {
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/orders/my": {
       "get": {
         "tags": [
-          "Order"
+          "Orders"
         ],
         "responses": {
           "200": {
@@ -361,7 +348,7 @@
     "/api/orders/{id}": {
       "get": {
         "tags": [
-          "Order"
+          "Orders"
         ],
         "parameters": [
           {
@@ -384,7 +371,7 @@
     "/api/orders/cancel/{id}": {
       "put": {
         "tags": [
-          "Order"
+          "Orders"
         ],
         "parameters": [
           {
@@ -407,7 +394,7 @@
     "/api/orders/verify-payment": {
       "post": {
         "tags": [
-          "Order"
+          "Orders"
         ],
         "requestBody": {
           "content": {
@@ -435,7 +422,7 @@
         }
       }
     },
-    "/api/products/getall": {
+    "/api/products": {
       "get": {
         "tags": [
           "Products"
@@ -447,7 +434,7 @@
         }
       }
     },
-    "/api/products/getby/{id}": {
+    "/api/products/{id}": {
       "get": {
         "tags": [
           "Products"
@@ -470,7 +457,7 @@
         }
       }
     },
-    "/api/products/getcatby/{categoryId}": {
+    "/api/products/category/{categoryId}": {
       "get": {
         "tags": [
           "Products"
@@ -493,91 +480,12 @@
         }
       }
     },
-    "/api/products/paged": {
-      "get": {
-        "tags": [
-          "Products"
-        ],
-        "parameters": [
-          {
-            "name": "page",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 1
-            }
-          },
-          {
-            "name": "pageSize",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 10
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/products/search": {
-      "get": {
-        "tags": [
-          "Products"
-        ],
-        "parameters": [
-          {
-            "name": "search",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "page",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 1
-            }
-          },
-          {
-            "name": "pageSize",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 10
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/products/filter-sort": {
       "get": {
         "tags": [
           "Products"
         ],
         "parameters": [
-          {
-            "name": "ProductId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
           {
             "name": "Name",
             "in": "query",
@@ -635,6 +543,43 @@
             "in": "query",
             "schema": {
               "type": "boolean"
+            }
+          },
+          {
+            "name": "Page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/products/search": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "Search",
+            "in": "query",
+            "schema": {
+              "type": "string"
             }
           },
           {
@@ -905,6 +850,20 @@
         },
         "additionalProperties": false
       },
+      "ForgotPasswordDto": {
+        "required": [
+          "email"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          }
+        },
+        "additionalProperties": false
+      },
       "LoginDto": {
         "required": [
           "email",
@@ -940,15 +899,14 @@
       "RegisterDto": {
         "required": [
           "email",
-          "name",
+          "fullName",
           "password"
         ],
         "type": "object",
         "properties": {
-          "name": {
-            "maxLength": 50,
+          "fullName": {
+            "maxLength": 100,
             "minLength": 3,
-            "pattern": "^[A-Za-z\\s]+$",
             "type": "string"
           },
           "email": {
@@ -976,7 +934,7 @@
             "type": "string"
           },
           "newPassword": {
-            "minLength": 6,
+            "minLength": 8,
             "type": "string"
           }
         },
@@ -997,20 +955,6 @@
             "minimum": 1,
             "type": "integer",
             "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateProfileDto": {
-        "required": [
-          "name"
-        ],
-        "type": "object",
-        "properties": {
-          "name": {
-            "minLength": 1,
-            "pattern": "^[a-zA-Z ]+$",
-            "type": "string"
           }
         },
         "additionalProperties": false
@@ -1060,15 +1004,20 @@
         "additionalProperties": false
       },
       "VerifyOtpDto": {
+        "required": [
+          "email",
+          "otp"
+        ],
         "type": "object",
         "properties": {
           "email": {
+            "minLength": 1,
             "type": "string",
-            "nullable": true
+            "format": "email"
           },
           "otp": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false

@@ -1,10 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-public class   ResetPasswordDto
+namespace Daor_E_Commerce.Application.DTOs.Auth
 {
-    [Required]
-    public string Otp { get; set; }
+    public class ResetPasswordDto
+    {
+        [Required]
+        public string Otp { get; set; } = null!;
 
-    [Required, MinLength(6)]
-    public string NewPassword { get; set; }
+        [Required, MinLength(8)]
+        public string NewPassword { get; set; } = null!;
+    }
 }

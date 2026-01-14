@@ -15,28 +15,39 @@ namespace Daor_E_Commerce.Presentation.Controllers
             _service = service;
         }
 
-        [HttpGet("getall")]
+        [HttpGet]
         public async Task<IActionResult> GetAll()
-            => Ok(await _service.GetAll());
+        {
+            var result = await _service.GetAllAsync();
+            return StatusCode(result.StatusCode, result);
+        }
 
-        [HttpGet("getby/{id}")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
-            => Ok(await _service.GetById(id));
+        {
+            var result = await _service.GetByIdAsync(id);
+            return StatusCode(result.StatusCode, result);
+        }
 
-        [HttpGet("getcatby/{categoryId}")]
+        [HttpGet("category/{categoryId}")]
         public async Task<IActionResult> GetByCategory(int categoryId)
-            => Ok(await _service.GetByCategory(categoryId));
-
-        [HttpGet("paged")]
-        public async Task<IActionResult> Paged(int page = 1, int pageSize = 10)
-            => Ok(await _service.GetPaged(page, pageSize));
-
-        [HttpGet("search")]
-        public async Task<IActionResult> Search(string search, int page = 1, int pageSize = 10)
-            => Ok(await _service.Search(search, page, pageSize));
-
+        {
+            var result = await _service.GetByCategoryAsync(categoryId);
+            return StatusCode(result.StatusCode, result);
+        }
         [HttpGet("filter-sort")]
-        public async Task<IActionResult> FilterSort([FromQuery] ProductFilterDto dto)
-            => Ok(await _service.FilterAndSort(dto));
+        public async Task<IActionResult> FilterSort([FromQuery] ProductFilterDto filter)
+        {
+            var result = await _service.FilterAndSortAsync(filter);
+            return StatusCode(result.StatusCode, result);
+        }
+        [HttpGet("search")]
+        public async Task<IActionResult> Search([FromQuery] ProductSearchDto dto)
+        {
+            var result = await _service.SearchAsync(dto);
+            return StatusCode(result.StatusCode, result);
+        }
+
+
     }
 }

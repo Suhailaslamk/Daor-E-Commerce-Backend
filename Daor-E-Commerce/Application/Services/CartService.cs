@@ -1,115 +1,234 @@
-﻿using Daor_E_Commerce.Application.DTOs.Cart;
+﻿//using Daor_E_Commerce.Application.DTOs.Cart;
+//using Daor_E_Commerce.Application.Interfaces;
+//using Daor_E_Commerce.Common;
+//using Daor_E_Commerce.Domain.Entities;
+//using Daor_E_Commerce.Infrastructure.Data;
+//using Microsoft.EntityFrameworkCore;
+
+//namespace Daor_E_Commerce.Application.Services
+//{
+//    public class CartService : ICartService
+//    {
+//        private readonly AppDbContext _context;
+
+//        public CartService(AppDbContext context)
+//        {
+//            _context = context;
+//        }
+
+//        private async Task<Cart> GetOrCreateCart(int userId)
+//        {
+//            var cart = await _context.Carts
+//                .Include(c => c.CartItems)
+//                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+//            if (cart == null)
+//            {
+//                cart = new Cart { UserId = userId };
+//                _context.Carts.Add(cart);
+//                await _context.SaveChangesAsync();
+//            }
+
+//            return cart;
+//        }
+
+//        public async Task<ApiResponse<object>> GetMyCart(int userId)
+//        {
+//            var cart = await _context.Carts
+//                .Include(c => c.CartItems)
+//                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+//            if (cart == null || !cart.CartItems.Any())
+//                return new ApiResponse<object>(200, "Cart is empty", new List<object>());
+
+//            var result = cart.CartItems.Select(ci => new
+//            {
+//                ci.ProductId,
+//                ci.Quantity
+//            });
+
+//            return new ApiResponse<object>(200, "Cart fetched", result);
+//        }
+
+//        public async Task<ApiResponse<string>> AddToCart(int userId, AddToCartDto dto)
+//        {
+//            var cart = await GetOrCreateCart(userId);
+
+//            var item = cart.CartItems
+//                .FirstOrDefault(i => i.ProductId == dto.ProductId);
+
+//            if (item != null)
+//                item.Quantity += dto.Quantity;
+//            else
+//                cart.CartItems.Add(new CartItem
+//                {
+//                    ProductId = dto.ProductId,
+//                    Quantity = dto.Quantity
+//                });
+
+//            await _context.SaveChangesAsync();
+//            return new ApiResponse<string>(200, "Item added to cart");
+//        }
+
+//        public async Task<ApiResponse<string>> UpdateCartItem(int userId, UpdateCartItemDto dto)
+//        {
+//            var cart = await GetOrCreateCart(userId);
+
+//            var item = cart.CartItems
+//                .FirstOrDefault(i => i.ProductId == dto.ProductId);
+
+//            if (item == null)
+//                return new ApiResponse<string>(404, "Item not found in cart");
+
+//            item.Quantity = dto.Quantity;
+//            await _context.SaveChangesAsync();
+
+//            return new ApiResponse<string>(200, "Cart updated");
+//        }
+
+//        public async Task<ApiResponse<string>> RemoveCartItem(int userId, int productId)
+//        {
+//            var cart = await GetOrCreateCart(userId);
+
+//            var item = cart.CartItems
+//                .FirstOrDefault(i => i.ProductId == productId);
+
+//            if (item == null)
+//                return new ApiResponse<string>(404, "Item not found");
+
+//            cart.CartItems.Remove(item);
+//            await _context.SaveChangesAsync();
+
+//            return new ApiResponse<string>(200, "Item removed");
+//        }
+
+//        public async Task<ApiResponse<string>> ClearCart(int userId)
+//        {
+//            var cart = await GetOrCreateCart(userId);
+
+//            cart.CartItems.Clear();
+//            await _context.SaveChangesAsync();
+
+//            return new ApiResponse<string>(200, "Cart cleared");
+//        }
+//    }
+//}
+
+
+
+
+
+
+using Daor_E_Commerce.Application.DTOs.Cart;
 using Daor_E_Commerce.Application.Interfaces;
-using Daor_E_Commerce.Common;
 using Daor_E_Commerce.Domain.Entities;
 using Daor_E_Commerce.Infrastructure.Data;
+using Daor_E_Commerce.Common;
 using Microsoft.EntityFrameworkCore;
 
-namespace Daor_E_Commerce.Application.Services
+
+public class CartService : ICartService
 {
-    public class CartService : ICartService
+    private readonly AppDbContext _context;
+
+    public CartService(AppDbContext context)
     {
-        private readonly AppDbContext _context;
+        _context = context;
+    }
 
-        public CartService(AppDbContext context)
+    public async Task<ApiResponse<string>> AddToCart(int userId, AddToCartDto dto)
+    {
+        var product = await _context.Products.FindAsync(dto.ProductId);
+        if (product == null || !product.IsActive)
+            return new ApiResponse<string>(404, "Product not found");
+
+        if (product.Stock < dto.Quantity)
+            return new ApiResponse<string>(400, "Insufficient stock");
+
+        var cart = await _context.Carts
+            .Include(x => x.CartItems)
+            .FirstOrDefaultAsync(x => x.UserId == userId);
+
+        if (cart == null)
         {
-            _context = context;
+            cart = new Cart { UserId = userId };
+            _context.Carts.Add(cart);
+            await _context.SaveChangesAsync();
         }
 
-        private async Task<Cart> GetOrCreateCart(int userId)
-        {
-            var cart = await _context.Carts
-                .Include(c => c.CartItems)
-                .FirstOrDefaultAsync(c => c.UserId == userId);
+        var item = cart.CartItems
+            .FirstOrDefault(x => x.ProductId == dto.ProductId);
 
-            if (cart == null)
+        if (item != null)
+            item.Quantity += dto.Quantity;
+        else
+            cart.CartItems.Add(new CartItem
             {
-                cart = new Cart { UserId = userId };
-                _context.Carts.Add(cart);
-                await _context.SaveChangesAsync();
-            }
-
-            return cart;
-        }
-
-        public async Task<ApiResponse<object>> GetMyCart(int userId)
-        {
-            var cart = await _context.Carts
-                .Include(c => c.CartItems)
-                .FirstOrDefaultAsync(c => c.UserId == userId);
-
-            if (cart == null || !cart.CartItems.Any())
-                return new ApiResponse<object>(200, "Cart is empty", new List<object>());
-
-            var result = cart.CartItems.Select(ci => new
-            {
-                ci.ProductId,
-                ci.Quantity
+                ProductId = dto.ProductId,
+                Quantity = dto.Quantity
             });
 
-            return new ApiResponse<object>(200, "Cart fetched", result);
-        }
+        await _context.SaveChangesAsync();
+        return new ApiResponse<string>(200, "Item added to cart");
+    }
 
-        public async Task<ApiResponse<string>> AddToCart(int userId, AddToCartDto dto)
+    public async Task<ApiResponse<string>> UpdateCart(int userId, UpdateCartItemDto dto)
+    {
+        var cart = await _context.Carts
+            .Include(x => x.CartItems)
+            .FirstOrDefaultAsync(x => x.UserId == userId);
+
+        if (cart == null)
+            return new ApiResponse<string>(404, "Cart not found");
+
+        var item = cart.CartItems.FirstOrDefault(x => x.ProductId == dto.ProductId);
+        if (item == null)
+            return new ApiResponse<string>(404, "Item not found in cart");
+
+        item.Quantity = dto.Quantity;
+        await _context.SaveChangesAsync();
+
+        return new ApiResponse<string>(200, "Cart updated");
+    }
+
+    public async Task<ApiResponse<string>> RemoveFromCart(int userId, int productId)
+    {
+        var cart = await _context.Carts
+            .Include(x => x.CartItems)
+            .FirstOrDefaultAsync(x => x.UserId == userId);
+
+        if (cart == null)
+            return new ApiResponse<string>(404, "Cart not found");
+
+        var item = cart.CartItems.FirstOrDefault(x => x.ProductId == productId);
+        if (item == null)
+            return new ApiResponse<string>(404, "Item not found");
+
+        cart.CartItems.Remove(item);
+        await _context.SaveChangesAsync();
+
+        return new ApiResponse<string>(200, "Item removed");
+    }
+
+    public async Task<ApiResponse<object>> GetCart(int userId)
+    {
+        var cart = await _context.Carts
+            .Include(x => x.CartItems)
+            .ThenInclude(x => x.Product)
+            .FirstOrDefaultAsync(x => x.UserId == userId);
+
+        if (cart == null)
+            return new ApiResponse<object>(200, "Cart is empty", new { });
+
+        var response = cart.CartItems.Select(x => new
         {
-            var cart = await GetOrCreateCart(userId);
+            x.ProductId,
+            x.Product.Name,
+            x.Quantity,
+            x.Product.Price,
+            Total = x.Quantity * x.Product.Price
+        });
 
-            var item = cart.CartItems
-                .FirstOrDefault(i => i.ProductId == dto.ProductId);
-
-            if (item != null)
-                item.Quantity += dto.Quantity;
-            else
-                cart.CartItems.Add(new CartItem
-                {
-                    ProductId = dto.ProductId,
-                    Quantity = dto.Quantity
-                });
-
-            await _context.SaveChangesAsync();
-            return new ApiResponse<string>(200, "Item added to cart");
-        }
-
-        public async Task<ApiResponse<string>> UpdateCartItem(int userId, UpdateCartItemDto dto)
-        {
-            var cart = await GetOrCreateCart(userId);
-
-            var item = cart.CartItems
-                .FirstOrDefault(i => i.ProductId == dto.ProductId);
-
-            if (item == null)
-                return new ApiResponse<string>(404, "Item not found in cart");
-
-            item.Quantity = dto.Quantity;
-            await _context.SaveChangesAsync();
-
-            return new ApiResponse<string>(200, "Cart updated");
-        }
-
-        public async Task<ApiResponse<string>> RemoveCartItem(int userId, int productId)
-        {
-            var cart = await GetOrCreateCart(userId);
-
-            var item = cart.CartItems
-                .FirstOrDefault(i => i.ProductId == productId);
-
-            if (item == null)
-                return new ApiResponse<string>(404, "Item not found");
-
-            cart.CartItems.Remove(item);
-            await _context.SaveChangesAsync();
-
-            return new ApiResponse<string>(200, "Item removed");
-        }
-
-        public async Task<ApiResponse<string>> ClearCart(int userId)
-        {
-            var cart = await GetOrCreateCart(userId);
-
-            cart.CartItems.Clear();
-            await _context.SaveChangesAsync();
-
-            return new ApiResponse<string>(200, "Cart cleared");
-        }
+        return new ApiResponse<object>(200, "Cart retrieved", response);
     }
 }

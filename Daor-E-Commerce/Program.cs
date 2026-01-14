@@ -101,12 +101,16 @@
 
 using Daor_E_Commerce.Application.Interfaces;
 using Daor_E_Commerce.Application.Services;
+
+
 using Daor_E_Commerce.Infrastructure.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Daor_E_Commerce.Common;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -119,6 +123,7 @@ builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IWishlistService, WishlistService>();
 builder.Services.AddScoped<IShippingAddressService, ShippingAddressService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
