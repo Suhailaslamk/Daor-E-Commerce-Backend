@@ -9,7 +9,7 @@
         public bool? InStock { get; set; }
         public bool? IsActive { get; set; }
 
-        public string? SortBy { get; set; } // price | name | createdon
+        public string? SortBy { get; set; } 
         public bool Descending { get; set; } = false;
 
         public int Page { get; set; } = 1;

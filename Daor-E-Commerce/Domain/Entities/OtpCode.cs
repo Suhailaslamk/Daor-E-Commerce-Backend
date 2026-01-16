@@ -1,15 +1,4 @@
-﻿//namespace Daor_E_Commerce.Domain
-//{
-//    public class OtpCode
-//    {
-//        public int Id { get; set; }
-//        public int UserId { get; set; }
-//        public int Code { get; set; }
-//        public DateTime ExpiresAt { get; set; }
-//        public bool IsUsed { get; set; } = false;
-//    }
-//}
-
+﻿
 
 
 using System.ComponentModel.DataAnnotations;

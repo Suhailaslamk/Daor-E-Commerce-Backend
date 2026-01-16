@@ -3,40 +3,144 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260113161439_something.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Daor-E-Commerce\\Infrastructure\\Migrations\\20260113161439_something.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\admin\\users\\adminuserlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\admin\\users\\adminuserlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\auth\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\auth\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\admin\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\admin\\adminproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\admin\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\admin\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\services\\admin\\admindashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\services\\admin\\admindashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\admin\\iadmindashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\admin\\iadmindashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\admin\\dashboard\\admindashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\admin\\dashboard\\admindashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\otpcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\otpcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\services\\admin\\adminproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\services\\admin\\adminproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\admin\\iadminproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\admin\\iadminproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\admin\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\admin\\product\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\admin\\iadminorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\admin\\iadminorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\admin\\product\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\admin\\product\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\admin\\adminorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\admin\\adminorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\admin\\category\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\admin\\category\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\admin\\category\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\admin\\category\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\admin\\orders\\updateorderstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\admin\\orders\\updateorderstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\services\\admin\\adminorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\services\\admin\\adminorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\orders\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\orders\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\admin\\admincategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\admin\\admincategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\services\\admin\\admincategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\services\\admin\\admincategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\admin\\iadmincategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\admin\\iadmincategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\admin\\admincontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\admin\\admincontrollerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\cart\\updatecartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\cart\\updatecartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260116054701_AddUserRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Daor-E-Commerce\\Infrastructure\\Migrations\\20260116054701_AddUserRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,132 +151,60 @@
       "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\services\\wishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\services\\shippingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\services\\shippingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\iwishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\iwishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\auth\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\auth\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\products\\productsearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\products\\productsearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\products\\productfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\products\\productfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\products\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\products\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\ishippingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\ishippingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\otpcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\otpcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\auth\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\auth\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\auth\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\auth\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\orders\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\orders\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\auth\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\auth\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\shipping\\updateshippingaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\shipping\\updateshippingaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\shipping\\shippingaddressresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\shipping\\shippingaddressresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\shipping\\addshippingaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\shipping\\addshippingaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\orders\\verifypaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\orders\\verifypaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\orders\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\orders\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\cart\\updatecartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\cart\\updatecartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\cart\\cartresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\cart\\cartresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\cart\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\cart\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\auth\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\auth\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\auth\\userprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -183,56 +215,112 @@
       "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\auth\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\auth\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\auth\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\shippingaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\shippingaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\auth\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\auth\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\services\\shippingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\services\\shippingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\shipping\\shippingaddressresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\shipping\\shippingaddressresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\ishippingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\ishippingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\iwishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\iwishlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\shippingaddresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\shippingaddresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\presentation\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\presentation\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\wishlistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\shippingaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\shippingaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\shipping\\updateshippingaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\shipping\\updateshippingaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\shipping\\addshippingaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\shipping\\addshippingaddressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\products\\productsearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\products\\productsearchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\products\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\products\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\products\\productfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\products\\productfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\orders\\verifypaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\orders\\verifypaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\orders\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\orders\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\cart\\cartresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\cart\\cartresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\application\\dtos\\cart\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\application\\dtos\\cart\\addtocartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\infrastructure\\migrations\\20260113161439_something.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|solutionrelative:daor-e-commerce\\infrastructure\\migrations\\20260113161439_something.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0C63307-2BDD-3BF5-CB74-C7B03E164CDB}|Daor-E-Commerce\\Daor-E-Commerce.csproj|c:\\users\\acer\\onedrive\\desktop\\dotnet core\\daor-e-commerce\\daor-e-commerce\\infrastructure\\migrations\\20260107121638_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -275,422 +363,279 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20260113161439_something.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260113161439_something.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260113161439_something.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260113161439_something.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260113161439_something.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AdminUserListDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Users\\AdminUserListDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Users\\AdminUserListDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Users\\AdminUserListDto.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Users\\AdminUserListDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T16:14:39.98Z",
+              "WhenOpened": "2026-01-16T11:11:02.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\CartService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\CartService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\CartService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\CartService.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAIAwwH4AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\Admin\\ValuesController.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\Admin\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\Admin\\ValuesController.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\Admin\\ValuesController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T11:42:14.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:52:12.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "OrderStatus.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Enums\\OrderStatus.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Enums\\OrderStatus.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Enums\\OrderStatus.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Enums\\OrderStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T06:42:16.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAIAwwNUAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T04:55:42.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\OrderService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\OrderService.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAMwIQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T13:25:21.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WishlistService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\WishlistService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\WishlistService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\WishlistService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\WishlistService.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAIAwwEoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T14:00:48.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\LoginDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\LoginDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T04:55:39.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T05:03:39.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\ProductService.cs",
-              "ViewState": "AgIAACABAAAAAAAAAAA4wDQBAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T11:23:59.792Z",
+              "WhenOpened": "2026-01-16T11:06:31.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "AdminDashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\Admin\\AdminDashboardService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\Admin\\AdminDashboardService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\Admin\\AdminDashboardService.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\Admin\\AdminDashboardService.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T11:04:49.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAdminDashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminDashboardService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminDashboardService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminDashboardService.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminDashboardService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T11:02:41.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminDashboardDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Dashboard\\AdminDashboardDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Dashboard\\AdminDashboardDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Dashboard\\AdminDashboardDto.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Dashboard\\AdminDashboardDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T10:59:36.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Product\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Product\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Product\\CreateProductDto.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Product\\CreateProductDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T06:24:57.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IAdminProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminProductService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminProductService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminProductService.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminProductService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T06:27:01.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\Admin\\AdminProductService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\Admin\\AdminProductService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\Admin\\AdminProductService.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\Admin\\AdminProductService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T06:28:25.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Program.cs",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Program.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Program.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Program.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAnwGoAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Program.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Program.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-07T12:05:31.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Common\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Common\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Common\\ApiResponse.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Common\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AdminProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminProductController.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminProductController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminProductController.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminProductController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T06:37:57.687Z",
+              "WhenOpened": "2026-01-16T06:30:32.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\AuthService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAAIUBAAAAAAAAAAAAAKUBAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\User.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\User.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T10:30:30.005Z",
+              "WhenOpened": "2026-01-07T11:02:43.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAADwvyUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "IAdminOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminOrderService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminOrderService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminOrderService.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminOrderService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T11:18:43.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ForgotPasswordDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\ForgotPasswordDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\ForgotPasswordDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\ForgotPasswordDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\ForgotPasswordDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T09:29:58.836Z",
+              "WhenOpened": "2026-01-16T06:38:39.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "IWishlistService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IWishlistService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\IWishlistService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IWishlistService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\IWishlistService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Product\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Product\\UpdateProductDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Product\\UpdateProductDto.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Product\\UpdateProductDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T14:00:18.009Z",
+              "WhenOpened": "2026-01-16T06:25:35.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "ICartService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\ICartService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\ICartService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\ICartService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\ICartService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "AdminOrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminOrdersController.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminOrdersController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminOrdersController.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminOrdersController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T11:41:33.371Z",
+              "WhenOpened": "2026-01-16T06:44:57.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ResetPasswordDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\ResetPasswordDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\ResetPasswordDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\ResetPasswordDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\ResetPasswordDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Product.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\Product.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T09:30:44.53Z",
+              "WhenOpened": "2026-01-07T11:31:21.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IEmailService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T14:16:14.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ProductResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Products\\ProductResponseDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Products\\ProductResponseDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Products\\ProductResponseDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Products\\ProductResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T16:21:13.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\EmailService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T14:17:19.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\IProductService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T11:23:20.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ProductSearchDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Products\\ProductSearchDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Products\\ProductSearchDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Products\\ProductSearchDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Products\\ProductSearchDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T15:30:47.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProductFilterDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Products\\ProductFilterDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Products\\ProductFilterDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Products\\ProductFilterDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Products\\ProductFilterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T16:21:33.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "WishlistController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\WishlistController.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\WishlistController.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\WishlistController.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\WishlistController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T13:44:14.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAwwGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T13:18:47.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IOrderService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\IOrderService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IOrderService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T13:23:54.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\CartController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAqwF4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T11:46:31.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IShippingAddressService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IShippingAddressService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\IShippingAddressService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IShippingAddressService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\IShippingAddressService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:11:13.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 9,
               "Title": "OtpCode.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\OtpCode.cs",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\OtpCode.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\OtpCode.cs",
               "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\OtpCode.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T09:23:11.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "VerifyOtpDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\VerifyOtpDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\VerifyOtpDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\VerifyOtpDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\VerifyOtpDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Order.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\Order.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T10:19:38.757Z",
+              "WhenOpened": "2026-01-07T11:36:23.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\RegisterDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\RegisterDto.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Category\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Category\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Category\\CreateCategoryDto.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Category\\CreateCategoryDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T04:55:42.527Z",
+              "WhenOpened": "2026-01-16T09:34:54.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 18,
+              "Title": "UpdateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Category\\UpdateCategoryDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Category\\UpdateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Category\\UpdateCategoryDto.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Category\\UpdateCategoryDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T09:35:59.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateOrderStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Orders\\UpdateOrderStatusDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Orders\\UpdateOrderStatusDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Admin\\Orders\\UpdateOrderStatusDto.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Admin\\Orders\\UpdateOrderStatusDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T06:37:30.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\Admin\\AdminOrderService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\Admin\\AdminOrderService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\Admin\\AdminOrderService.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\Admin\\AdminOrderService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T06:43:38.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "CreateOrderDto.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Orders\\CreateOrderDto.cs",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Orders\\CreateOrderDto.cs",
@@ -703,98 +648,241 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\appsettings.json",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\appsettings.json",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\appsettings.json",
-              "RelativeToolTip": "Daor-E-Commerce\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-07T12:02:01.247Z",
+              "DocumentIndex": 22,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Enums\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Enums\\OrderStatus.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Enums\\OrderStatus.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-10T06:42:16.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\User.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "AdminCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminCategoryController.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminCategoryController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminCategoryController.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminCategoryController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:02:43.434Z",
+              "WhenOpened": "2026-01-16T09:41:27.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UpdateShippingAddressDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Shipping\\UpdateShippingAddressDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Shipping\\UpdateShippingAddressDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Shipping\\UpdateShippingAddressDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Shipping\\UpdateShippingAddressDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "AdminCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\Admin\\AdminCategoryService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\Admin\\AdminCategoryService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\Admin\\AdminCategoryService.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\Admin\\AdminCategoryService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:10:34.193Z",
+              "WhenOpened": "2026-01-16T09:38:57.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ShippingAddressResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Shipping\\ShippingAddressResponseDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Shipping\\ShippingAddressResponseDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Shipping\\ShippingAddressResponseDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Shipping\\ShippingAddressResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "IAdminCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminCategoryService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminCategoryService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminCategoryService.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\Admin\\IAdminCategoryService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:10:49.438Z",
+              "WhenOpened": "2026-01-16T09:37:32.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "AddShippingAddressDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Shipping\\AddShippingAddressDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Shipping\\AddShippingAddressDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Shipping\\AddShippingAddressDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Shipping\\AddShippingAddressDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 27,
+              "Title": "AdminControllerBase.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminControllerBase.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminControllerBase.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminControllerBase.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\Admin\\AdminControllerBase.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:10:16.987Z",
+              "WhenOpened": "2026-01-16T07:53:18.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "verifyPaymentDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Orders\\verifyPaymentDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Orders\\verifyPaymentDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Orders\\verifyPaymentDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Orders\\verifyPaymentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 28,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T15:59:18.895Z",
+              "WhenOpened": "2026-01-08T04:55:42.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "OrderResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Orders\\OrderResponseDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Orders\\OrderResponseDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Orders\\OrderResponseDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Orders\\OrderResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Category.cs*",
+              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\Category.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T15:58:53.151Z",
+              "WhenOpened": "2026-01-07T11:30:13.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Common\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Common\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T06:37:57.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T04:55:42.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T05:03:39.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T04:55:39.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\EmailService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:17:19.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAuwMEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:30:30.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\CartService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\CartService.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T11:42:14.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T09:32:32.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20260116054701_AddUserRole.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260116054701_AddUserRole.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260116054701_AddUserRole.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260116054701_AddUserRole.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260116054701_AddUserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T05:47:01.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\OrderService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\OrderService.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T13:25:21.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T11:23:59.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "UpdateCartDto.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Cart\\UpdateCartDto.cs",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Cart\\UpdateCartDto.cs",
@@ -807,59 +895,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "CartResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Cart\\CartResponseDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Cart\\CartResponseDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Cart\\CartResponseDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Cart\\CartResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 37,
+              "Title": "ShippingAddressService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\ShippingAddressService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\ShippingAddressService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\ShippingAddressService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\ShippingAddressService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T15:04:26.664Z",
+              "WhenOpened": "2026-01-12T18:11:31.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "AddToCartDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Cart\\AddToCartDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Cart\\AddToCartDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Cart\\AddToCartDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Cart\\AddToCartDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 36,
+              "Title": "WishlistService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\WishlistService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\WishlistService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\WishlistService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\WishlistService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T05:30:44.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "UserProfileDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\UserProfileDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\UserProfileDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\UserProfileDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\UserProfileDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T09:27:20.927Z",
+              "WhenOpened": "2026-01-09T14:00:48.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 44,
-              "Title": "UpdateProfileDto.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\UpdateProfileDto.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\UpdateProfileDto.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\UpdateProfileDto.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\UpdateProfileDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Title": "ForgotPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\ForgotPasswordDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\ForgotPasswordDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\ForgotPasswordDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\ForgotPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T09:28:26.183Z",
+              "WhenOpened": "2026-01-12T09:29:58.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 45,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T14:16:14.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\Cart.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Cart.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T11:33:18.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\appsettings.json",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\appsettings.json",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\appsettings.json",
+              "RelativeToolTip": "Daor-E-Commerce\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-07T12:02:01.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T11:52:12.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "RefreshTokenDto.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\RefreshTokenDto.cs",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\RefreshTokenDto.cs",
@@ -872,124 +996,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Cart.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\Cart.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Cart.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:33:18.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\CartItem.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\CartItem.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\CartItem.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:35:15.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:30:13.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 49,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:36:23.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T11:18:43.705Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 50,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\OrderItem.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\OrderItem.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Title": "VerifyOtpDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\VerifyOtpDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\VerifyOtpDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\VerifyOtpDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\VerifyOtpDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:37:39.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T10:19:38.757Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 51,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "UserProfileDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\UserProfileDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\UserProfileDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\UserProfileDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\UserProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T11:31:21.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T09:27:20.927Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 52,
-              "Title": "RefreshToken.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\RefreshToken.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\RefreshToken.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\RefreshToken.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\RefreshToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Title": "UpdateProfileDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\UpdateProfileDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\UpdateProfileDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\UpdateProfileDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\UpdateProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T09:22:12.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T09:28:26.183Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 53,
-              "Title": "ShippingAddress.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\ShippingAddress.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\ShippingAddress.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\ShippingAddress.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\ShippingAddress.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "ResetPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\ResetPasswordDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Auth\\ResetPasswordDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Auth\\ResetPasswordDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Auth\\ResetPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:09:38.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T09:30:44.53Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 54,
-              "Title": "WishlistItem.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\WishlistItem.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\WishlistItem.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\WishlistItem.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\WishlistItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T13:54:34.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Middlewares\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Middlewares\\ExceptionMiddleware.cs",
@@ -997,38 +1064,311 @@
               "RelativeToolTip": "Daor-E-Commerce\\Middlewares\\ExceptionMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T06:37:59.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T06:37:59.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ShippingAddressResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Shipping\\ShippingAddressResponseDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Shipping\\ShippingAddressResponseDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Shipping\\ShippingAddressResponseDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Shipping\\ShippingAddressResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T18:10:49.438Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 56,
-              "Title": "ShippingAddressService.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\ShippingAddressService.cs",
-              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Services\\ShippingAddressService.cs",
-              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Services\\ShippingAddressService.cs",
-              "RelativeToolTip": "Daor-E-Commerce\\Application\\Services\\ShippingAddressService.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAiwGwAAAAAAAAAAAAAAA==",
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:11:31.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T13:23:54.714Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 57,
+              "Title": "IShippingAddressService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IShippingAddressService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\IShippingAddressService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IShippingAddressService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\IShippingAddressService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T18:11:13.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T11:23:20.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IWishlistService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IWishlistService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\IWishlistService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\IWishlistService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\IWishlistService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:00:18.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "WishlistController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\WishlistController.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\WishlistController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\WishlistController.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\WishlistController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T13:44:14.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
               "Title": "ShippingAddressController.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\ShippingAddressController.cs",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\ShippingAddressController.cs",
               "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\ShippingAddressController.cs",
               "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\ShippingAddressController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCcAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:12:14.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T18:12:14.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 62,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T13:18:47.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Presentation\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Presentation\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Presentation\\Controllers\\CartController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T11:46:31.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "WishlistItem.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\WishlistItem.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\WishlistItem.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\WishlistItem.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\WishlistItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T13:54:34.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ShippingAddress.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\ShippingAddress.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\ShippingAddress.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\ShippingAddress.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\ShippingAddress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T18:09:38.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T09:22:12.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T11:37:39.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\CartItem.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Domain\\Entities\\CartItem.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Domain\\Entities\\CartItem.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Domain\\Entities\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T11:35:15.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\ICartService.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\Interfaces\\ICartService.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\Interfaces\\ICartService.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\Interfaces\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T11:41:33.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "UpdateShippingAddressDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Shipping\\UpdateShippingAddressDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Shipping\\UpdateShippingAddressDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Shipping\\UpdateShippingAddressDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Shipping\\UpdateShippingAddressDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T18:10:34.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "AddShippingAddressDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Shipping\\AddShippingAddressDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Shipping\\AddShippingAddressDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Shipping\\AddShippingAddressDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Shipping\\AddShippingAddressDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxcAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T18:10:16.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ProductSearchDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Products\\ProductSearchDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Products\\ProductSearchDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Products\\ProductSearchDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Products\\ProductSearchDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T15:30:47.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ProductResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Products\\ProductResponseDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Products\\ProductResponseDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Products\\ProductResponseDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Products\\ProductResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:21:13.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ProductFilterDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Products\\ProductFilterDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Products\\ProductFilterDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Products\\ProductFilterDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Products\\ProductFilterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:21:33.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "verifyPaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Orders\\verifyPaymentDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Orders\\verifyPaymentDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Orders\\verifyPaymentDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Orders\\verifyPaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:59:18.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "OrderResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Orders\\OrderResponseDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Orders\\OrderResponseDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Orders\\OrderResponseDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Orders\\OrderResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:58:53.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "CartResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Cart\\CartResponseDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Cart\\CartResponseDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Cart\\CartResponseDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Cart\\CartResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:04:26.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "AddToCartDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Cart\\AddToCartDto.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Application\\DTOs\\Cart\\AddToCartDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Application\\DTOs\\Cart\\AddToCartDto.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Application\\DTOs\\Cart\\AddToCartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T05:30:44.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "20260113161439_something.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260113161439_something.cs",
+              "RelativeDocumentMoniker": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260113161439_something.cs",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260113161439_something.cs",
+              "RelativeToolTip": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260113161439_something.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:14:39.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
               "Title": "20260107121638_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260107121638_InitialCreate.cs",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260107121638_InitialCreate.cs",
@@ -1036,12 +1376,11 @@
               "RelativeToolTip": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260107121638_InitialCreate.cs",
               "ViewState": "AgIAAHwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T12:16:38.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T12:16:38.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 84,
               "Title": "20260112182137_AddShippingAddress.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260112182137_AddShippingAddress.cs",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260112182137_AddShippingAddress.cs",
@@ -1049,12 +1388,11 @@
               "RelativeToolTip": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260112182137_AddShippingAddress.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:21:37.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T18:21:37.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 85,
               "Title": "20260112151357_AddCartEntities.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260112151357_AddCartEntities.cs",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260112151357_AddCartEntities.cs",
@@ -1062,12 +1400,11 @@
               "RelativeToolTip": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260112151357_AddCartEntities.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T15:13:57.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T15:13:57.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 86,
               "Title": "20260112145445_AddAuthAndOtpEntities.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260112145445_AddAuthAndOtpEntities.cs",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260112145445_AddAuthAndOtpEntities.cs",
@@ -1075,12 +1412,11 @@
               "RelativeToolTip": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260112145445_AddAuthAndOtpEntities.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T14:54:45.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T14:54:45.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 81,
               "Title": "Daor-E-Commerce.csproj",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Daor-E-Commerce.csproj",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Daor-E-Commerce.csproj",
@@ -1088,12 +1424,11 @@
               "RelativeToolTip": "Daor-E-Commerce\\Daor-E-Commerce.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-07T11:49:11.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-07T11:49:11.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 83,
               "Title": "20260110064941_MoveStatusToEnumFolder.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260110064941_MoveStatusToEnumFolder.cs",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260110064941_MoveStatusToEnumFolder.cs",
@@ -1101,12 +1436,11 @@
               "RelativeToolTip": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260110064941_MoveStatusToEnumFolder.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T06:49:42.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-10T06:49:42.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 82,
               "Title": "20260109113725_MakeDescriptionOptional.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\OneDrive\\Desktop\\dotNet core\\Daor-E-Commerce\\Daor-E-Commerce\\Infrastructure\\Migrations\\20260109113725_MakeDescriptionOptional.cs",
               "RelativeDocumentMoniker": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260109113725_MakeDescriptionOptional.cs",
@@ -1114,8 +1448,7 @@
               "RelativeToolTip": "Daor-E-Commerce\\Infrastructure\\Migrations\\20260109113725_MakeDescriptionOptional.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T11:37:25.976Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T11:37:25.976Z"
             }
           ]
         }

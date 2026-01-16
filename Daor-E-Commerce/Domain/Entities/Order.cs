@@ -1,4 +1,5 @@
-﻿using Daor_E_Commerce.Domain.Enums;
+﻿using Daor_E_Commerce.Domain.Entities;
+using Daor_E_Commerce.Domain.Enums;
 
 namespace Daor_E_Commerce.Domain.Entities
 {
@@ -13,9 +14,8 @@ namespace Daor_E_Commerce.Domain.Entities
 
         public DateTime OrderDate { get; set; } = DateTime.UtcNow;
         public string? PaymentIntentId { get; set; }
-        public ICollection<OrderItem> OrderItems { get; set; }
+        public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
     }
 }
-
 
 

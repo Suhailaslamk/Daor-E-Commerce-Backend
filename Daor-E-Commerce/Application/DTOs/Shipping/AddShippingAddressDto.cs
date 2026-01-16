@@ -11,19 +11,20 @@ namespace Daor_E_Commerce.Application.DTOs.Shipping
         [Phone]
         public string Phone { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Address line is required")]
         public string AddressLine { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "City is required")]
         public string City { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "State is required")]
         public string State { get; set; }
 
-        [Required]
-        public string PostalCode { get; set; }
+        [Required(ErrorMessage = "Postal code is required")]
+        [RegularExpression(@"^\d{6}$", ErrorMessage = "Postal code must be exactly 6 digits")] public string PostalCode { get; set; } = null!;
 
         [Required]
         public string Country { get; set; }
     }
 }
+

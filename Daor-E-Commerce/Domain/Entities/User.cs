@@ -1,17 +1,4 @@
-﻿//namespace Daor_E_Commerce.Domain.Entities
-//{
-//    public class User
-//    {
-//        public int Id { get; set; }
-//        public string Name { get; set; }
-//        public string Email { get; set; }
-//        public string PasswordHash { get; set; }
-//        public string Role { get; set; }
-//        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-
-//    }
-//}
-
+﻿
 
 
 using System.ComponentModel.DataAnnotations;
@@ -34,5 +21,7 @@ namespace Daor_E_Commerce.Domain.Entities
         public bool IsEmailVerified { get; set; } = false;
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public UserRole Role { get; set; } = UserRole.User;
+        public bool IsBlocked { get; set; } = false;
     }
 }
