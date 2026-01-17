@@ -1,11 +1,15 @@
-﻿using Daor_E_Commerce.Application.DTOs.Admin.Product;
+﻿using Daor_E_Commerce.Application.DTOs.Admin;
+using Daor_E_Commerce.Application.DTOs.Admin.Product;
 using Daor_E_Commerce.Application.Interfaces.Admin;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Daor_E_Commerce.Presentation.Controllers.Admin
 {
+    [Authorize(Roles = "Admin")]
+    [ApiController]
     [Route("api/admin/products")]
-    public class AdminProductsController : AdminControllerBase
+    public class AdminProductsController : ControllerBase
     {
         private readonly IAdminProductService _service;
 
@@ -14,17 +18,10 @@ namespace Daor_E_Commerce.Presentation.Controllers.Admin
             _service = service;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetAll()
-        {
-            var result = await _service.GetAll();
-            return StatusCode(result.StatusCode, result);
-        }
-
         [HttpPost]
-        public async Task<IActionResult> Add(AddProductDto dto)
+        public async Task<IActionResult> Create(CreateProductDto dto)
         {
-            var result = await _service.Add(dto);
+            var result = await _service.Create(dto);
             return StatusCode(result.StatusCode, result);
         }
 
@@ -35,10 +32,27 @@ namespace Daor_E_Commerce.Presentation.Controllers.Admin
             return StatusCode(result.StatusCode, result);
         }
 
-        [HttpPatch("toggle/{id}")]
+        [HttpPatch("{id}/toggle")]
         public async Task<IActionResult> Toggle(int id)
         {
             var result = await _service.ToggleStatus(id);
+            return StatusCode(result.StatusCode, result);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var result = await _service.Delete(id);
+            return StatusCode(result.StatusCode, result);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll(
+            string? search,
+            int page = 1,
+            int pageSize = 10)
+        {
+            var result = await _service.GetAll(search, page, pageSize);
             return StatusCode(result.StatusCode, result);
         }
     }

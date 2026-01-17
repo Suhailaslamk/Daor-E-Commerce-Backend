@@ -83,13 +83,13 @@ namespace Daor_E_Commerce.Application.Services.Admin
         {
             var orders = await _context.Orders
                 .Where(x => x.UserId == userId)
-                .OrderByDescending(x => x.CreatedAt)
+                .OrderByDescending(x => x.OrderDate)
                 .Select(x => new
                 {
                     x.Id,
                     x.TotalAmount,
                     x.Status,
-                    x.CreatedAt
+                    x.OrderDate
                 })
                 .ToListAsync();
 

@@ -5,6 +5,6 @@ namespace Daor_E_Commerce.Application.Interfaces.Admin
 {
     public interface IAdminDashboardService
     {
-        Task<ApiResponse<AdminDashboardDto>> GetStats();
+        Task<ApiResponse<AdminDashboardDto>> GetDashboard();
     }
 }

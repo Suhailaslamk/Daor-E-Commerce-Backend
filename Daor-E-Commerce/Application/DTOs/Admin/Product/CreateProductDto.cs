@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace Daor_E_Commerce.Application.DTOs.Admin.Product
 {
-    public class AddProductDto
+    public class CreateProductDto
     {
         [Required]
         [MaxLength(150)]
@@ -18,5 +18,10 @@ namespace Daor_E_Commerce.Application.DTOs.Admin.Product
 
         [Required]
         public string ImageUrl { get; set; } = null!;
+
+
+       
     }
 }
+
+
