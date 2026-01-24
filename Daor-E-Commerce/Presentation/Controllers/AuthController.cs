@@ -2,12 +2,11 @@
 
 
 using Daor_E_Commerce.Application.DTOs.Auth;
-using Daor_E_Commerce.Application.Interfaces;
+using Daor_E_Commerce.Application.Interfaces.IServices;
 using Daor_E_Commerce.Common;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
-using static System.Net.WebRequestMethods;
 
 namespace Daor_E_Commerce.Presentation.Controllers
 {
@@ -21,48 +20,44 @@ namespace Daor_E_Commerce.Presentation.Controllers
         {
             _authService = authService;
         }
+
         [HttpPost("register")]
-        public async Task<IActionResult> Register(RegisterDto dto)
+        public async Task<IActionResult> Register([FromBody] RegisterDto dto)
         {
             var result = await _authService.Register(dto);
             return StatusCode(result.StatusCode, result);
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login(LoginDto dto)
+        public async Task<IActionResult> Login([FromBody] LoginDto dto)
         {
             var result = await _authService.Login(dto);
             return StatusCode(result.StatusCode, result);
         }
 
-       
-
-
         [HttpPost("send-otp")]
-        public async Task<IActionResult> SendOtp(ForgotPasswordDto dto)
+        public async Task<IActionResult> SendOtp([FromBody] ForgotPasswordDto dto)
         {
             var result = await _authService.SendOtp(dto.Email);
             return StatusCode(result.StatusCode, result);
         }
 
         [HttpPost("verify-otp")]
-        public async Task<IActionResult> VerifyOtp(VerifyOtpDto dto)
+        public async Task<IActionResult> VerifyOtp([FromBody] VerifyOtpDto dto)
         {
             var result = await _authService.VerifyOtp(dto);
             return StatusCode(result.StatusCode, result);
         }
 
         [HttpPost("reset-password")]
-        public async Task<IActionResult> ResetPassword(
-            [FromQuery] string email,
-            ResetPasswordDto dto)
+        public async Task<IActionResult> ResetPassword([FromQuery] string email, [FromBody] ResetPasswordDto dto)
         {
-            var result = await _authService.ResetPassword( email, dto);
+            var result = await _authService.ResetPassword(email, dto);
             return StatusCode(result.StatusCode, result);
         }
 
         [HttpPost("refresh-token")]
-        public async Task<IActionResult> RefreshToken(RefreshTokenDto dto)
+        public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenDto dto)
         {
             var result = await _authService.RefreshToken(dto.RefreshToken);
             return StatusCode(result.StatusCode, result);
@@ -74,11 +69,15 @@ namespace Daor_E_Commerce.Presentation.Controllers
         {
             var userId = User.FindFirstValue("UserId");
             var email = User.FindFirstValue("Email");
-
+            var Role = User.FindFirstValue(ClaimTypes.Role);
+            var UserName = User.FindFirstValue("UserName");
             return Ok(new ApiResponse<object>(200, "Profile fetched", new
             {
                 UserId = userId,
-                Email = email
+                UserName = UserName,
+                Email = email,
+                Role = Role,
+
             }));
         }
 
@@ -86,10 +85,16 @@ namespace Daor_E_Commerce.Presentation.Controllers
         [HttpPost("logout")]
         public async Task<IActionResult> Logout()
         {
-            var userId = int.Parse(User.FindFirstValue("UserId"));
-            var result = await _authService.Logout(userId);
+            var userIdClaim = User.FindFirst("UserId")?.Value;
 
+            if (string.IsNullOrEmpty(userIdClaim))
+                return Unauthorized();
+
+            var userId = int.Parse(userIdClaim);
+
+            var result = await _authService.Logout(userId);
             return StatusCode(result.StatusCode, result);
         }
+
     }
 }

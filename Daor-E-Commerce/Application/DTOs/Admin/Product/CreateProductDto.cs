@@ -17,10 +17,14 @@ namespace Daor_E_Commerce.Application.DTOs.Admin.Product
         public int Stock { get; set; }
 
         [Required]
-        public string ImageUrl { get; set; } = null!;
+        public int CategoryId { get; set; }  
+
+        [Required]
+        public IFormFile ImageFile { get; set; } = null!;
+
+        
 
 
-       
     }
 }
 

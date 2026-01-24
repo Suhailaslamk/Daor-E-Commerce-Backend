@@ -27,7 +27,7 @@ public class AdminOrderService : IAdminOrderService
             {
                 x.Id,
                 x.User.Email,
-                x.Status,
+                Status = x.Status.ToString(),
                 x.TotalAmount,
                 x.OrderDate
             })
@@ -89,5 +89,22 @@ public class AdminOrderService : IAdminOrderService
             OrderStatus.Cancelled => current is OrderStatus.Pending or OrderStatus.Paid,
             _ => false
         };
+    }
+
+
+    public async Task<ApiResponse<object>> GetOrderHistory(int orderId)
+    {
+        var history = await _context.OrderStatusHistories
+            .Where(h => h.OrderId == orderId)
+            .OrderBy(h => h.ChangedAt)
+            .Select(h => new
+            {
+                h.Status,
+                h.Note,
+                h.ChangedAt
+            })
+            .ToListAsync();
+
+        return new ApiResponse<object>(200, "Order history retrieved", history);
     }
 }

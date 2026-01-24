@@ -1,13 +1,16 @@
 
 
 using Daor_E_Commerce.Application.Interfaces;
+using Daor_E_Commerce.Application.Interfaces.Admin;
+using Daor_E_Commerce.Application.Interfaces.IServices;
+
+using Daor_E_Commerce.Application.Interfaces.Repositories;
 using Daor_E_Commerce.Application.Services;
 using Daor_E_Commerce.Application.Services.Admin;
-using Daor_E_Commerce.Application.Interfaces.Admin;
-
-
 using Daor_E_Commerce.Common;
 using Daor_E_Commerce.Infrastructure.Data;
+using Daor_E_Commerce.Infrastructure.Repositories;
+using Daor_E_Commerce.Infrastructure.UnitOfWork;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -25,6 +28,7 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
 builder.Services.AddScoped<IWishlistService, WishlistService>();
 builder.Services.AddScoped<IShippingAddressService, ShippingAddressService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
@@ -33,6 +37,17 @@ builder.Services.AddScoped<IAdminOrderService, AdminOrderService>();
 builder.Services.AddScoped<IAdminCategoryService, AdminCategoryService>();
 builder.Services.AddScoped<IAdminDashboardService, AdminDashboardService>();
 builder.Services.AddScoped<IAdminUserService, AdminUserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ICartRepository, CartRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
+
+
+
+
+
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>

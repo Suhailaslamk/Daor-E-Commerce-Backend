@@ -1,8 +1,6 @@
 ﻿
 
-
-
-using Daor_E_Commerce.Application.Interfaces;
+using Daor_E_Commerce.Application.Interfaces.IServices;
 using Daor_E_Commerce.Domain.Entities;
 using Daor_E_Commerce.Infrastructure.Data;
 using Daor_E_Commerce.Common;
@@ -54,7 +52,8 @@ public class WishlistService : IWishlistService
                 x.Product.Id,
                 x.Product.Name,
                 x.Product.Price,
-                x.Product.ImageUrl
+                x.Product.ImageUrl,
+                x.Product.Stock
             })
             .ToListAsync();
 

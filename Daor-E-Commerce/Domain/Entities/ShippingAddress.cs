@@ -1,6 +1,8 @@
-﻿namespace Daor_E_Commerce.Domain.Entities
+﻿using Daor_E_Commerce.Domain.Entities;
+
+namespace Daor_E_Commerce.Domain.Entities
 {
-    public class ShippingAddress
+    public class ShippingAddress : BaseEntity
     {
         public int Id { get; set; }
 
@@ -16,6 +18,10 @@
         public string Country { get; set; }
 
         public bool IsActive { get; set; } = false;
-        public DateTime CreatedOn { get; set; } = DateTime.UtcNow;
+
+
+       
     }
-}
+    }
+
+

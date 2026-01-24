@@ -2,7 +2,7 @@
 
 
 using Daor_E_Commerce.Application.DTOs.Cart;
-using Daor_E_Commerce.Application.Interfaces;
+using Daor_E_Commerce.Application.Interfaces.IServices;
 using Daor_E_Commerce.Domain.Entities;
 using Daor_E_Commerce.Infrastructure.Data;
 using Daor_E_Commerce.Common;
@@ -23,9 +23,13 @@ public class CartService : ICartService
         var product = await _context.Products.FindAsync(dto.ProductId);
         if (product == null || !product.IsActive)
             return new ApiResponse<string>(404, "Product not found");
+        if (product.Stock <= 0)
+            return new ApiResponse<string>(400, "Insufficient stock");
 
         if (product.Stock < dto.Quantity)
             return new ApiResponse<string>(400, "Insufficient stock");
+        if (dto.Quantity < 0)
+            return new ApiResponse<string>(400, "please enter a valid quantity");
 
         var cart = await _context.Carts
             .Include(x => x.CartItems)
@@ -67,6 +71,12 @@ public class CartService : ICartService
         if (item == null)
             return new ApiResponse<string>(404, "Item not found in cart");
 
+        if (item.Quantity <= 0)
+        {
+            _context.CartItems.Remove(item);
+            await _context.SaveChangesAsync();
+            return new ApiResponse<string>(200, "Item removed from cart");
+        }
         item.Quantity = dto.Quantity;
         await _context.SaveChangesAsync();
 
@@ -105,6 +115,7 @@ public class CartService : ICartService
 
         var response = cart.CartItems.Select(x => new
         {
+            CartItemId = x.Id,
             x.ProductId,
             x.Product.Name,
             x.Quantity,

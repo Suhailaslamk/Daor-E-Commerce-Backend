@@ -2,10 +2,10 @@
 
 
 using System.ComponentModel.DataAnnotations;
-
+using CloudinaryDotNet;
 namespace Daor_E_Commerce.Domain.Entities
 {
-    public class User
+    public class User : BaseEntity
     {
         public int Id { get; set; }
 

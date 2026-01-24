@@ -2,7 +2,7 @@
 
 namespace Daor_E_Commerce.Domain.Entities
 {
-    public class RefreshToken
+    public class RefreshToken : BaseEntity
     {
         public int Id { get; set; }
 

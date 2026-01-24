@@ -7,7 +7,7 @@ namespace Daor_E_Commerce.Application.DTOs.Cart
         [Required]
         public int ProductId { get; set; }
 
-        [Range(1, 100)]
+        [Required]
         public int Quantity { get; set; }
     }
 }

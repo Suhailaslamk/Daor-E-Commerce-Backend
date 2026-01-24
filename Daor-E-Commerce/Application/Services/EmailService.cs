@@ -1,4 +1,5 @@
-﻿using Daor_E_Commerce.Application.Interfaces;
+﻿
+using Daor_E_Commerce.Application.Interfaces.IServices;
 using System.Net;
 using System.Net.Mail;
 
@@ -20,6 +21,8 @@ namespace Daor_E_Commerce.Application.Services
             var username = _config["Email:Username"];
             var password = _config["Email:Password"];
             var from = _config["Email:From"];
+            var fromEmail = _config["EmailSettings:FromEmail"];
+            var appName = _config["EmailSettings:AppName"];
 
             if (string.IsNullOrEmpty(host) ||
                 string.IsNullOrEmpty(port) ||
@@ -30,6 +33,16 @@ namespace Daor_E_Commerce.Application.Services
                 throw new Exception("Email configuration is missing");
             }
 
+            var message = new MailMessage
+            {
+                From = new MailAddress(fromEmail, appName),
+                Subject = subject,
+                Body = body,
+                IsBodyHtml = true
+            };
+
+            message.To.Add(toEmail);
+
             var smtp = new SmtpClient(host)
             {
                 Port = int.Parse(port),
@@ -39,8 +52,15 @@ namespace Daor_E_Commerce.Application.Services
 
             var mail = new MailMessage(from, toEmail, subject, body);
 
-            await smtp.SendMailAsync(mail);
+            try
+            {
+                await smtp.SendMailAsync(message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("SMTP ERROR: " + ex.Message);
+            }
+            //await smtp.SendMailAsync(message);
         }
-
     }
 }

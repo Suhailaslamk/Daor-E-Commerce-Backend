@@ -1,7 +1,7 @@
 ﻿
 
 
-using Daor_E_Commerce.Application.Interfaces;
+using Daor_E_Commerce.Application.Interfaces.IServices;
 using Daor_E_Commerce.Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

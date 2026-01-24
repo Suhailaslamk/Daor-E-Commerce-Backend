@@ -1,6 +1,6 @@
 ﻿namespace Daor_E_Commerce.Domain.Entities
 {
-    public class WishlistItem
+    public class WishlistItem : BaseEntity
     {
         public int Id { get; set; }
 

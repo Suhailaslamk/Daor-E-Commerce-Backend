@@ -2,7 +2,7 @@
 
 
 using Daor_E_Commerce.Application.DTOs.Products;
-using Daor_E_Commerce.Application.Interfaces;
+using Daor_E_Commerce.Application.Interfaces.IServices;
 using Daor_E_Commerce.Common;
 using Daor_E_Commerce.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -21,6 +21,7 @@ namespace Daor_E_Commerce.Application.Services
         public async Task<ApiResponse<List<ProductResponseDto>>> GetAllAsync()
         {
             var products = await _context.Products
+                .AsNoTracking()
                 .Include(p => p.Category)
                 .Where(p => p.IsActive)
                 .Select(p => new ProductResponseDto
@@ -30,7 +31,9 @@ namespace Daor_E_Commerce.Application.Services
                     Description = p.Description,
                     Price = p.Price,
                     InStock = p.Stock > 0,
-                    Category = p.Category!.Name,
+                    Stock = p.Stock,
+                    CategoryId = p.CategoryId,
+                    CategoryName = p.Category!.Name,
                     ImageUrl = p.ImageUrl
                 })
                 .ToListAsync();
@@ -41,6 +44,7 @@ namespace Daor_E_Commerce.Application.Services
         public async Task<ApiResponse<ProductResponseDto>> GetByIdAsync(int id)
         {
             var product = await _context.Products
+                .AsNoTracking()
                 .Include(p => p.Category)
                 .FirstOrDefaultAsync(p => p.Id == id && p.IsActive);
 
@@ -53,14 +57,23 @@ namespace Daor_E_Commerce.Application.Services
                 Name = product.Name,
                 Description = product.Description,
                 Price = product.Price,
+                Stock = product.Stock,
                 InStock = product.Stock > 0,
-                Category = product.Category!.Name,
+                CategoryId = product.CategoryId,
+                CategoryName = product.Category!.Name,
                 ImageUrl = product.ImageUrl
             });
         }
 
+        
         public async Task<ApiResponse<List<ProductResponseDto>>> GetByCategoryAsync(int categoryId)
         {
+            var categoryExists = await _context.Categories
+                .AnyAsync(c => c.Id == categoryId && c.IsActive);
+
+            if (!categoryExists)
+                return new ApiResponse<List<ProductResponseDto>>(404, "Category not found");
+
             var products = await _context.Products
                 .Include(p => p.Category)
                 .Where(p => p.CategoryId == categoryId && p.IsActive)
@@ -70,22 +83,27 @@ namespace Daor_E_Commerce.Application.Services
                     Name = p.Name,
                     Description = p.Description,
                     Price = p.Price,
+                    Stock = p.Stock,
                     InStock = p.Stock > 0,
-                    Category = p.Category!.Name,
+                    CategoryId = p.CategoryId,
+                    CategoryName = p.Category!.Name,
                     ImageUrl = p.ImageUrl
                 })
                 .ToListAsync();
+
+            if (!products.Any())
+                return new ApiResponse<List<ProductResponseDto>>(200, "No products in this category", new List<ProductResponseDto>());
 
             return new ApiResponse<List<ProductResponseDto>>(200, "Category products fetched", products);
         }
         public async Task<ApiResponse<List<ProductResponseDto>>> FilterAndSortAsync(ProductFilterDto filter)
         {
             var query = _context.Products
+                 .AsNoTracking()
                 .Include(p => p.Category)
                 .Where(p => p.IsActive)
                 .AsQueryable();
 
-            // 🔍 Filters
             if (!string.IsNullOrWhiteSpace(filter.Name))
                 query = query.Where(p => p.Name.Contains(filter.Name));
 
@@ -101,7 +119,6 @@ namespace Daor_E_Commerce.Application.Services
             if (filter.InStock.HasValue)
                 query = query.Where(p => (p.Stock > 0) == filter.InStock);
 
-            // ↕ Sort
             query = filter.SortBy?.ToLower() switch
             {
                 "price" => filter.Descending ? query.OrderByDescending(p => p.Price) : query.OrderBy(p => p.Price),
@@ -110,7 +127,6 @@ namespace Daor_E_Commerce.Application.Services
                 _ => query.OrderBy(p => p.Id)
             };
 
-            // 📄 Pagination
             var products = await query
                 .Skip((filter.Page - 1) * filter.PageSize)
                 .Take(filter.PageSize)
@@ -121,7 +137,8 @@ namespace Daor_E_Commerce.Application.Services
                     Description = p.Description,
                     Price = p.Price,
                     InStock = p.Stock > 0,
-                    Category = p.Category!.Name,
+                    CategoryId = p.CategoryId,
+                    CategoryName = p.Category!.Name,
                     ImageUrl = p.ImageUrl
                 })
                 .ToListAsync();
@@ -151,7 +168,8 @@ namespace Daor_E_Commerce.Application.Services
                     Description = p.Description,
                     Price = p.Price,
                     InStock = p.Stock > 0,
-                    Category = p.Category!.Name,
+                    CategoryId = p.CategoryId,
+                    CategoryName = p.Category!.Name,
                     ImageUrl = p.ImageUrl
                 })
                 .ToListAsync();

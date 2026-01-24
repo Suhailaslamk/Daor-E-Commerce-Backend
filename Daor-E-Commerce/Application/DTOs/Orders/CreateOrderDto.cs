@@ -1,7 +1,14 @@
-﻿namespace Daor_E_Commerce.Application.DTOs.Orders
+﻿using System.ComponentModel.DataAnnotations;
+namespace Daor_E_Commerce.Application.DTOs.Orders
 {
     public class CreateOrderDto
     {
-        public string PaymentMethod { get; set; } = "ONLINE";
+        [Required]
+        public List<int> CartItemIds { get; set; } = new();
+       
+        [Required]
+
+        public int ShippingAddressId { get; set; }
+
     }
 }

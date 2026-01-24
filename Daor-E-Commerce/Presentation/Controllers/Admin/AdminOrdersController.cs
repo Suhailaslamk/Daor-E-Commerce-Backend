@@ -37,4 +37,11 @@ public class AdminOrdersController : ControllerBase
         var result = await _service.UpdateStatus(dto);
         return StatusCode(result.StatusCode, result);
     }
+    [HttpGet("{id}/history")]
+    public async Task<IActionResult> History(int id)
+    {
+        var result = await _service.GetOrderHistory(id);
+        return StatusCode(result.StatusCode, result);
+    }
+
 }

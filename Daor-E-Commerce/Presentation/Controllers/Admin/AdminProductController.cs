@@ -1,58 +1,58 @@
-﻿using Daor_E_Commerce.Application.DTOs.Admin;
-using Daor_E_Commerce.Application.DTOs.Admin.Product;
+﻿using Daor_E_Commerce.Application.DTOs.Admin.Product;
 using Daor_E_Commerce.Application.Interfaces.Admin;
+using Daor_E_Commerce.Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Daor_E_Commerce.Presentation.Controllers.Admin
 {
-    [Authorize(Roles = "Admin")]
     [ApiController]
     [Route("api/admin/products")]
-    public class AdminProductsController : ControllerBase
+    public class AdminProductsController : AdminControllerBase
     {
-        private readonly IAdminProductService _service;
+        private readonly IAdminProductService _adminService;
 
-        public AdminProductsController(IAdminProductService service)
+        public AdminProductsController(
+            IAdminProductService adminService)
+           
         {
-            _service = service;
+            _adminService = adminService;
         }
 
+        
         [HttpPost]
-        public async Task<IActionResult> Create(CreateProductDto dto)
+        public async Task<IActionResult> Create([FromForm] CreateProductDto dto)
         {
-            var result = await _service.Create(dto);
+            var result = await _adminService.Create(dto);
             return StatusCode(result.StatusCode, result);
         }
 
-        [HttpPut]
-        public async Task<IActionResult> Update(UpdateProductDto dto)
+        
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
         {
-            var result = await _service.Update(dto);
+            var result = await _adminService.GetById(id);
             return StatusCode(result.StatusCode, result);
         }
 
-        [HttpPatch("{id}/toggle")]
-        public async Task<IActionResult> Toggle(int id)
+        
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> PatchUpdate(
+            int id,
+            [FromForm] UpdateProductPatchDto dto)
         {
-            var result = await _service.ToggleStatus(id);
+            var result = await _adminService.PatchUpdate(id, dto);
             return StatusCode(result.StatusCode, result);
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
-        {
-            var result = await _service.Delete(id);
-            return StatusCode(result.StatusCode, result);
-        }
-
+        
         [HttpGet]
         public async Task<IActionResult> GetAll(
             string? search,
             int page = 1,
             int pageSize = 10)
         {
-            var result = await _service.GetAll(search, page, pageSize);
+            var result = await _adminService.GetAll(search, page, pageSize);
             return StatusCode(result.StatusCode, result);
         }
     }

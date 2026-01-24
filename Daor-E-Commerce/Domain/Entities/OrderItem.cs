@@ -1,6 +1,6 @@
 ﻿namespace Daor_E_Commerce.Domain.Entities
 {
-    public class OrderItem
+    public class OrderItem : BaseEntity
     {
 
         public int Id { get; set; }

@@ -3,7 +3,7 @@ using Daor_E_Commerce.Domain.Enums;
 
 namespace Daor_E_Commerce.Domain.Entities
 {
-    public class Order
+    public class Order : BaseEntity
     {
         public int Id { get; set; }
         public int UserId { get; set; }
@@ -15,7 +15,10 @@ namespace Daor_E_Commerce.Domain.Entities
         public DateTime OrderDate { get; set; } = DateTime.UtcNow;
         public string? PaymentIntentId { get; set; }
         public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+        public int ShippingAddressId { get; set; }
+        public ShippingAddress ShippingAddress { get; set; }
+
+        
     }
 }
-
 

@@ -1,9 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Daor_E_Commerce.Domain.Entities;
+using System.ComponentModel.DataAnnotations;
 
 namespace Daor_E_Commerce.Application.DTOs.Shipping
 {
     public class AddShippingAddressDto
     {
+        public int Id { get; set; }
+
         [Required]
         public string FullName { get; set; }
 
@@ -21,7 +24,8 @@ namespace Daor_E_Commerce.Application.DTOs.Shipping
         public string State { get; set; }
 
         [Required(ErrorMessage = "Postal code is required")]
-        [RegularExpression(@"^\d{6}$", ErrorMessage = "Postal code must be exactly 6 digits")] public string PostalCode { get; set; } = null!;
+        [RegularExpression(@"^\d{6}$", ErrorMessage = "Postal code must be exactly 6 digits")] 
+        public string PostalCode { get; set; } = null!;
 
         [Required]
         public string Country { get; set; }

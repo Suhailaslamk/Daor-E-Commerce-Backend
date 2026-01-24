@@ -1,10 +1,12 @@
 ﻿
 
 using Daor_E_Commerce.Application.DTOs.Orders;
-using Daor_E_Commerce.Application.Interfaces;
+using Daor_E_Commerce.Application.Interfaces.IServices;
+using Daor_E_Commerce.Common;
 using Daor_E_Commerce.Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 [Authorize]
 [ApiController]
@@ -21,9 +23,9 @@ public class OrdersController : ControllerBase
     private int UserId => int.Parse(User.FindFirst("UserId")!.Value);
 
     [HttpPost]
-    public async Task<IActionResult> Create()
+    public async Task<IActionResult> Create(CreateOrderDto dto)
     {
-        var result = await _service.CreateOrder(UserId);
+        var result = await _service.CreateOrder(UserId, dto);
         return StatusCode(result.StatusCode, result);
     }
 
@@ -54,4 +56,5 @@ public class OrdersController : ControllerBase
         var result = await _service.VerifyPayment(UserId, dto);
         return StatusCode(result.StatusCode, result);
     }
+    
 }

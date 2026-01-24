@@ -8,6 +8,8 @@ namespace Daor_E_Commerce.Application.Interfaces.Admin
         Task<ApiResponse<object>> GetAll();
         Task<ApiResponse<object>> GetById(int orderId);
         Task<ApiResponse<string>> UpdateStatus(UpdateOrderStatusDto dto);
+        Task<ApiResponse<object>> GetOrderHistory(int orderId);
+
     }
 
 }

@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Daor_E_Commerce.Domain.Entities
 {
-    public class OtpCode
+    public class OtpCode : BaseEntity
     {
         public int Id { get; set; }
 

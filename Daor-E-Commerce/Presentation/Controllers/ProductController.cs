@@ -1,5 +1,5 @@
 ﻿using Daor_E_Commerce.Application.DTOs.Products;
-using Daor_E_Commerce.Application.Interfaces;
+using Daor_E_Commerce.Application.Interfaces.IServices;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Daor_E_Commerce.Presentation.Controllers

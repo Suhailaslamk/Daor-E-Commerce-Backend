@@ -4,7 +4,7 @@ namespace Daor_E_Commerce.Application.DTOs.Auth
 {
     public class RefreshTokenDto
     {
-        [Required]
+        [Required(ErrorMessage = "Refresh token is required")]
         public string RefreshToken { get; set; }
     }
 }

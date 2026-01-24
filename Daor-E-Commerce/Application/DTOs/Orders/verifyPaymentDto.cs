@@ -3,6 +3,6 @@
     public class VerifyPaymentDto
     {
         public int OrderId { get; set; }
-        public string PaymentReference { get; set; }
+        public string PaymentIntentId { get; set; } = null!;
     }
 }
